@@ -1,0 +1,38 @@
+:root{
+    --bgright : blue;
+    --font: 15px;
+}
+*{
+    box-sizing: border-box;
+    font-size:var(--font);
+}
+.main{
+    background-color: bisque;
+}
+.global{
+    width: 50%;
+    height :200px;
+    padding: 15px;
+   float: left;
+    background-color: burlywood;
+      border: 4px dotted green;
+}
+.sub-div1{
+    border: 4px dotted green;
+   font-size: var(--font);
+}
+.sub-div2{
+    border: 4px dotted red;
+}
+.box1{
+    height: 150px;
+    width: 200px;
+    border: 3px solid black;
+    float: left;
+}
+.box2{
+    height: 150px;
+    width: 200px;
+    border: 3px solid black;
+    float: left;
+}
